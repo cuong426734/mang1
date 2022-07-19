@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,4,5,6,7,8,9,10];
+    let max = arr[1];
+    let index = 0;
+    for (let i in arr) {
+        if (arr[i] > max) {
+            max = arr[i];
+            index = Number(i)+1;
+        }
+    }
+    document.write("Giá trị lớn nhất của các phần tử trong dãy là: " + max + ", phần tử đó nằm ở vị trí: "+ index +" trong dãy.");
+
+</script>
+</body>
+</html>
